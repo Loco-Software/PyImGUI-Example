@@ -42,7 +42,11 @@ def window_loop():
     imgui.begin("Welcome Message")
 
     "Welcome Message Text"
-    imgui.text("Welcome to PyImGUI")
+    imgui.text("Welcome to PyGuiBase")
+    imgui.text("This is a Demo for PyImGUI")
+    imgui.text("Developed by Loco Software")
+    imgui.text("Available under the MIT License")
+    imgui.text("URL: https://github.com/Loco-Software/PyGuiBase")
 
     "Close Welcome Message Box"
     imgui.end()
